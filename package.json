@@ -1,0 +1,19 @@
+{
+  "name": "chat_socket_io_app",
+  "version": "1.0.0",
+  "description": "A chat web application integrated with socket.io and Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": ["chat", "real-time", "socket.io", "MongoDB", "Mongoose"],
+  "author": "Hussam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "socket.io": "^4.4.0"
+  }
+}
